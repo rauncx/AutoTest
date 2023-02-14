@@ -32,5 +32,18 @@
         "status": "1"
       }
     }
+  },
+  {
+    "description": "一个返回cookies信息的get请求",
+    "request": {
+      "uri": "/getCookies",
+      "method": "get"
+    },
+    "response": {
+      "cookies": {
+        "login": "true"
+      },
+      "text": "获取cookies信息成功"
+    }
   }
 ]
